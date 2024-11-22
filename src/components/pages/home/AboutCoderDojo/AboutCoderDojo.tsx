@@ -32,6 +32,7 @@ const AboutCoderDojo = ({ className }: AboutCoderDojoProps) => {
           <p className={overviewTextClasses}>
             CoderDojoについてのより詳しい情報は、
             <a
+              className="text-blue-400 hover:opacity-70"
               href="https://coderdojo.jp/"
               target="_blank"
               rel="noopener noreferrer"
